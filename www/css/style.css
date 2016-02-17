@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Conv_Orbitron-Bold';
+	src: url('fonts/Orbitron-Bold.eot');
+	src: local('☺'), url('fonts/Orbitron-Bold.woff') format('woff'), url('fonts/Orbitron-Bold.ttf') format('truetype'), url('fonts/Orbitron-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+	.digi-clock
+	{
+		font-family:'Conv_Orbitron-Bold',Sans-Serif;
+	    text-align:center;
+		 
+	}

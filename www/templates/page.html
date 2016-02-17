@@ -1,0 +1,12 @@
+<ion-view title="Pomodoro">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <h1 class="digi-clock">{{sessionName}}</h1>
+        <h1 class="digi-clock">{{sessionTime}}</h1>
+        <div class="button-bar">
+            <button class="button button-stable button-block" ng-click="startSession()">Start</button>
+            <button class="button button-stable button-block" ng-click="stopSession()">Stop</button>
+            <button class="button button-stable button-block" ng-click="resetSession()">Reset</button>
+
+        </div>
+    </ion-content>
+</ion-view>
